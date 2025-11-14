@@ -1,0 +1,45 @@
+# PMAT Quality Gates Configuration
+# This file defines quality thresholds for the repository
+
+[quality_gates]
+# Documentation quality threshold (70% minimum for educational repos)
+documentation_score = 70.0
+
+# Repository hygiene threshold (should be 100%)
+repository_hygiene_score = 100.0
+
+# Overall repository score threshold
+# Note: Lower threshold for educational repos without code
+minimum_score = 50.0
+
+[documentation]
+# Require README.md
+require_readme = true
+
+# Require CLAUDE.md for AI assistant guidance
+require_claude_md = true
+
+# All documentation links must be valid
+allow_broken_links = false
+
+[repository]
+# Require .gitignore
+require_gitignore = true
+
+# Require LICENSE file
+require_license = true
+
+[ci_cd]
+# Require GitHub Actions workflow
+require_github_actions = true
+
+# Workflow must include linting
+require_lint_job = true
+
+# Workflow must include validation
+require_validation_job = true
+
+[comments]
+# This is an educational repository with markdown content
+# Build/test automation requirements are adjusted accordingly
+educational_repo = true

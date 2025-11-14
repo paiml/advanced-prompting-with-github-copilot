@@ -1,0 +1,47 @@
+// Markdown linting configuration for markdownlint-cli2
+// Adjusted for educational content with code examples
+{
+  "config": {
+    // Default state for all rules
+    "default": true,
+
+    // MD004: Unordered list style - disabled (allow both asterisk and dash)
+    "MD004": false,
+
+    // MD013: Line length - disabled for educational content
+    "MD013": false,
+
+    // MD022: Headings should be surrounded by blank lines - disabled
+    "MD022": false,
+
+    // MD024: Multiple headers with same content - allow for lab sections
+    "MD024": {
+      "siblings_only": true
+    },
+
+    // MD031: Fenced code blocks should be surrounded by blank lines - disabled
+    "MD031": false,
+
+    // MD032: Lists should be surrounded by blank lines - disabled
+    "MD032": false,
+
+    // MD033: Inline HTML - allowed for centered headers
+    "MD033": false,
+
+    // MD034: Bare URLs - allowed
+    "MD034": false,
+
+    // MD040: Fenced code language - disabled for educational examples
+    "MD040": false,
+
+    // MD041: First line should be top-level header - disabled
+    "MD041": false
+  },
+
+  // Globs to exclude
+  "ignores": [
+    "node_modules/**",
+    ".git/**",
+    "LICENSE"
+  ]
+}
