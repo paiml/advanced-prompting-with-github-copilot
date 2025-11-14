@@ -10,7 +10,7 @@
     <img src="https://github.com/paiml/advanced-prompting-with-github-copilot/actions/workflows/ci.yml/badge.svg" alt="CI Status">
   </a>
   <a href="https://github.com/paiml/advanced-prompting-with-github-copilot">
-    <img src="https://img.shields.io/badge/PMAT_Repo_Score-74%2F100-yellowgreen" alt="PMAT Repo Score">
+    <img src="https://img.shields.io/badge/PMAT_Repo_Score-85%2F100-brightgreen" alt="PMAT Repo Score">
   </a>
   <a href="https://github.com/paiml/advanced-prompting-with-github-copilot">
     <img src="https://img.shields.io/badge/Course-1_of_4-blue" alt="Course 1 of 4">
